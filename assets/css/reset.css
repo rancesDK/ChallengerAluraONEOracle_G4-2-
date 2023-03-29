@@ -1,0 +1,28 @@
+:root {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  --background-header: #ffffff;
+  --aseets-color: #2a7ae4;
+  --background-main-search: #f5f5f5;
+  --backgound-footer: #eaf2fd;
+  --font-footer-link: #464646;
+}
+body {
+  font-family: Raleway, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  padding: 0;
+}

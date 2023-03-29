@@ -1,0 +1,35 @@
+.footer__main {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+.footer__autor {
+  text-align: center;
+  margin: 2rem 0px;
+  box-sizing: border-box;
+}
+/* ------------------------------table */
+@media (max-width: 1024px) {
+  .footer__main {
+    width: 95%;
+  }
+}
+@media (max-width: 821px) {
+  .footer__main {
+    width: 90%;
+    align-content: center;
+  }
+}
+/* ========= mobil======= */
+@media (max-width: 560px) {
+  .footer__main {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 421px) {
+  .footer__main {
+    justify-content: center;
+    text-align: center;
+  }
+}

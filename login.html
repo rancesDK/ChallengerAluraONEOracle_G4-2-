@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/header-nav/header-nav.css" />
+    <link rel="stylesheet" href="./assets/css/header-nav/logo.css" />
+    <link rel="stylesheet" href="./assets/css/header-nav/search.css" />
+    <link rel="stylesheet" href="./assets/css/header-nav/button.css" />
+    <link rel="stylesheet" href="./assets/css/header-nav/baner-content.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/footer/footer-main.css" />
+    <link rel="stylesheet" href="./assets/css/footer/footer_conttent.css" />
+    <link rel="stylesheet" href="./assets/css/footer/form-content.css" />
+    <link rel="stylesheet" href="./assets/css/css-login/main-login.css" />
+    <link rel="stylesheet" href="./assets/css/css-login/fomContent.css" />
+  </head>
+  <body>
+    <nav class="header__nav">
+      <div class="nav__container">
+        <a href="index.html"
+          ><img class="nav__logo" src="./assets/img/Logo.svg" alt="Logo"
+        /></a>
+
+        <div class="nav__searchContainer">
+          <input class="nav__search" type="search" placeholder="buscar" />
+          <img
+            class="nav__icon"
+            src="./assets/img/icon/Icone-search.svg"
+            alt="Icone-search"
+          />
+        </div>
+      </div>
+    </nav>
+    <main class="main__login">
+      <form action="" class="login__form">
+        <span class="login__title">Iniciar Sesión</span>
+        <input
+          class="login__email"
+          type="email"
+          placeholder="Escriba su correo electrónico"
+        />
+        <input
+          class="login__password"
+          type="password"
+          placeholder="Escriba su contraseña"
+        />
+        <input class="login__submit" type="submit" value="Entrar" />
+      </form>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__main">
+        <div class="footer__logo">
+          <a class="footerContent__logo" href="index.html"
+            ><img src="./assets/img/Logo.svg" class="logo__footer" alt="logo"
+          /></a>
+          <div class="footer__menu">
+            <ul class="menu_container">
+              <li class="menu__link">
+                <a class="link__menu" href="#">Quienes somos</a>
+              </li>
+              <li class="menu__link">
+                <a class="link__menu" href="#">Política de privacidad</a>
+              </li>
+              <li class="menu__link">
+                <a class="link__menu" href="#">Programa de fidelidad</a>
+              </li>
+              <li class="menu__link">
+                <a class="link__menu" href="#">Nuestras Tiendas</a>
+              </li>
+              <li class="menu__link">
+                <a class="link__menu" href="#">Quiero ser franquiciado</a>
+              </li>
+              <li class="menu__link">
+                <a class="link__menu limk_sinMargen" href="#">Anúncie aquí</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__form">
+          <span class="form__title"> Hable con nosotros </span>
+          <form class="form__mesenger">
+            <label class="form__labeContainer" for="name"
+              >Nombre
+              <input
+                class="form__name"
+                type="text"
+                id="name"
+                placeholder="ramiro ona"
+            /></label>
+
+            <textarea
+              class="form__textarea"
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Escribe  tu mensaje"
+            ></textarea>
+            <input type="submit" class="form__button" value="Enviar mensaje" />
+          </form>
+        </div>
+      </div>
+      <div class="footer__autor">
+        <span class="autor__footer"
+          >desarollado por ramiro <br />
+          2023</span
+        >
+      </div>
+    </footer>
+  </body>
+</html>

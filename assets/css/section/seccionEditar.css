@@ -1,0 +1,39 @@
+.section__edit {
+  position: absolute;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  display: flex;
+  margin-left: 7.5rem;
+  /* display: none; */
+}
+.fa-regular,
+.fa-solid {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 700;
+}
+.edit_delete {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.fa-regular:active,
+.fa-solid:active {
+  color: black;
+}
+
+@media (hover: hover) {
+  .fa-regular:hover,
+  .fa-solid:hover {
+    color: var(--aseets-color);
+  }
+  .fa-regular:active,
+  .fa-solid:active {
+    color: black;
+  }
+}
+@media (max-width: 361px) {
+  .section__edit {
+    margin-left: 6rem;
+  }
+}

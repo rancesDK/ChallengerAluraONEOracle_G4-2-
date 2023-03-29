@@ -1,0 +1,36 @@
+.agregarProducto__form {
+  display: flex;
+  flex-direction: column;
+}
+.agregarProducto__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+.container__input {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  height: 5.6rem;
+  margin-bottom: 2rem;
+  justify-content: end;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  box-shadow: 0px 1px 0px 0px black;
+  border: none;
+}
+.container__input::placeholder {
+  opacity: 0.5;
+}
+.input__class {
+  height: 60%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  outline: none;
+}
+.input__class::placeholder {
+  opacity: 0.5;
+}

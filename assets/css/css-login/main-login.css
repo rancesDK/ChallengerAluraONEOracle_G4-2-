@@ -1,0 +1,7 @@
+.main__login {
+  background-color: var(--background-main-search);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}

@@ -1,0 +1,10 @@
+.nav__logo {
+  width: 17.5rem;
+  /* height: 5rem; */
+}
+@media (max-width: 420px) {
+  .nav__logo {
+    width: 12rem;
+    margin-right: 2.5rem;
+  }
+}
